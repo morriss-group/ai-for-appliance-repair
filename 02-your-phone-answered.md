@@ -8,6 +8,8 @@ This is a phone number that answers itself. A caller says their washer is leakin
 
 The problem it solves is that I can't answer the phone with my hands inside a machine. Now a call at 9 PM, on a Sunday, or while I'm on my back behind a dryer gets answered and booked onto my calendar, and I read the recording later.
 
+**Where the rules live.** The words you type into the voice platform are the agent's manners: how it greets, what it asks, how it says no. They are not where the rules that matter live. Mine has forgotten a prompt rule three times in one week, because a long prompt is a suggestion the model weighs against everything else the caller says. It has never once booked a holiday, offered a window I don't work, or booked outside my area, because those aren't sentences in the prompt. They're a small program on a server that the agent has to ask before it can book anything, and the program says no and can't be talked out of it. If you build this, put every rule you'd fire a dispatcher for breaking in the code, and leave the prompt for the manners.
+
 ## What it costs, honestly
 
 This is the hardest of the three things in this guide to set up. Figure on an afternoon to get it standing up, and then more time after that tuning it against real calls, because a scripted test call is not the same as a real customer talking over your agent or mumbling an address.
