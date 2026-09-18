@@ -15,6 +15,7 @@ Appliance repair techs and shop owners who have never used AI, don't use a compu
 3. [Your books](03-your-books.md), connecting a bookkeeper AI straight into QuickBooks Online.
 4. [What goes wrong](04-what-goes-wrong.md), the habits that catch it when any of the above is confidently wrong.
 5. [Your CRM, and the shop's memory](05-your-crm-and-the-shops-memory.md), the step past chapter 1: it writes the ticket, files the tech sheet, and tells a tech what to check next.
+6. [One truck to five](06-one-truck-to-five.md), the plan, not the practice: outbound calls, hiring, and what's in use versus planned, dated.
 
 ## What this is not
 
