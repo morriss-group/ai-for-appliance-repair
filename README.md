@@ -25,6 +25,14 @@ Not a course. Not a product. There's no support line, and nobody's on call if it
 
 I'm Marc, thirty years fixing appliances, owner of Steel City Appliance Repair in Homewood, Alabama. I'm not a programmer. The phone agent in chapter 2 answers my line every day and the chat program in chapter 1 is on my phone. Chapter 3 is the setup I'd use, written so you can use it on your books; my own year-end still goes to a professional either way.
 
+## Why I wrote this
+
+To the guys in the trade groups, most of whom I've known for eight years: this is for you. I don't post much. This is the post.
+
+Here's what I think is coming, and I'm labeling it the way chapter 4 says to: this is a belief, not a measurement. A lot of white-collar work is going away, faster than most people think. I don't have a number I'd defend on this page, and I'm testing the numbers I read in a separate series, against the government's own releases, where I write down when I'm wrong. But the direction I'm sure of. The people who can't get those jobs are going to come looking for ours, and there is plenty of work. I think it's on us to be ready to hire them and teach them, and this guide is one shop's way of getting ready.
+
+Go to college because you enjoy it, not because it gets you a job. Unless you're there learning to run these systems. That's the one degree I'd still bet on.
+
 ## If something in here is wrong or broke for you
 
 Open an issue at github.com/morriss-group/ai-for-appliance-repair/issues and say what broke, or reply in whatever group you found this link in and say the same thing. I'd rather hear about it than have the next person hit it blind.
