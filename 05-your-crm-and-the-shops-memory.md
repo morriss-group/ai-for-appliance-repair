@@ -6,7 +6,7 @@
 
 This is the step past chapter 1. In chapter 1 Claude writes the two line items and you paste them into your ticket. In this chapter it has a key to your CRM, so when you say "write up the ticket," it writes the ticket. The labor line with the whole repair in plain words, the part line with the number and the price, and a note on the job with the model, the serial and what you found. You read it, you say yes, it's on the job.
 
-The second half is memory, and the order matters. I photograph the model number first. If it already has the tech sheet for that model, we go. If it doesn't, I photograph the document, whatever the maker calls it: the tech sheet, the mini manual folded inside the door or behind the kick plate, or the full service manual, or I download it from the makers who give them out, and it gets filed by model with the fault codes, the service mode and the test points typed out. If there's no sheet to be found, it still helps, but noticeably less. The document is what makes it good. With the document in front of it, it's a tech line: it has the sheet, it has what failed on that model last time, and it never puts you on hold. Whether it beats the manufacturer's tech line is my opinion, not a measurement, and my opinion is yes.
+The second half is memory, and the order matters. I photograph the model number first. If it already has the tech sheet for that model, we go. If it doesn't, I photograph the document, whatever the maker calls it: the tech sheet, the mini manual folded inside the door or behind the kick plate, the wiring diagram, or the full service manual, or I download it from the makers who give them out, and it gets filed by model with the fault codes, the service mode, the test points and the wiring typed out. If there's no sheet to be found, it still helps, but noticeably less. The document is what makes it good. With the document in front of it, it's a tech line: it has the sheet, it has what failed on that model last time, and it never puts you on hold. Whether it beats the manufacturer's tech line is my opinion, not a measurement, and my opinion is yes.
 
 This morning that was a GE dishwasher with an intermittent dead display: hold the left pad and Start five seconds, count the blinks, eight blinks is a stuck key, and the service light on the main board under the tub tells you whether it's the panel or the board. That's off the sheet, in plain words, before I had the door apart.
 
@@ -20,7 +20,7 @@ As of September 2026 this needs a paid Claude plan, because it runs in Claude Co
 
 - A paid Claude plan and Claude Code installed on a computer (chapter 1's install, then the paid step)
 - A CRM that gives you an API key, and the key
-- One folder on your computer for the shop, with three things in it: your pricing rule from chapter 1, a folder for tech sheets, mini manuals and service manuals, and a text file that will become your ledger of what failed and what fixed it
+- One folder on your computer for the shop, with three things in it: your pricing rule from chapter 1, a folder for tech sheets, mini manuals, wiring diagrams and service manuals, and a text file that will become your ledger of what failed and what fixed it
 - The rule in writing, before the key goes anywhere: it shows you the ticket and waits for your yes, every time
 
 ## Step by step
