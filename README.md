@@ -2,7 +2,7 @@
 
 **Try one of these three with a real job this week, and keep your passwords out of it.**
 
-This is a plain-English guide to three things I actually use to run an appliance repair shop: a chat program that helps me diagnose, look up parts, price them my way and write the ticket, a phone agent that answers calls and books jobs, and a bookkeeper that watches my QuickBooks. There's a fourth chapter too, on what goes wrong and how I catch it.
+This is a plain-English guide to three things I actually use to run an appliance repair shop: a chat program that helps me diagnose, look up parts, price them my way and write the ticket, a phone agent that answers calls and books jobs, and a bookkeeper that watches my QuickBooks. There's a fourth chapter on what goes wrong and how I catch it, and a fifth on the step past all of it, where it writes the ticket itself and remembers every tech sheet you've ever photographed.
 
 ## Who it's for
 
@@ -14,7 +14,7 @@ Appliance repair techs and shop owners who have never used AI, don't use a compu
 2. [Your phone, answered](02-your-phone-answered.md), a phone agent that answers calls and books onto your calendar.
 3. [Your books](03-your-books.md), connecting a bookkeeper AI straight into QuickBooks Online.
 4. [What goes wrong](04-what-goes-wrong.md), the habits that catch it when any of the above is confidently wrong.
-5. Housecall Pro line items written for you, on the job, without pasting. Not written yet.
+5. [Your CRM, and the shop's memory](05-your-crm-and-the-shops-memory.md), the step past chapter 1: it writes the ticket, files the tech sheet, and tells a tech what to check next.
 
 ## What this is not
 

@@ -46,7 +46,7 @@ Never invent a price or a part number. If you can't find one, say so.
 7. Read the two line items out loud. Change anything that doesn't sound like you. Then paste them into your ticket and send.
 8. Do a real job with it the same day you set it up, not next week. Finishing something small the same day is what makes it stick.
 
-In my shop it goes one step further: it writes those lines straight into Housecall Pro for me, on the job, and I never paste anything. That takes Claude Code, a paid plan, and a key from Housecall Pro. It's chapter 5, and chapter 5 isn't written yet.
+In my shop it goes one step further: it writes those lines straight into Housecall Pro for me, on the job, and I never paste anything. That takes Claude Code, a paid plan, and a key from Housecall Pro. That's [chapter 5](05-your-crm-and-the-shops-memory.md).
 
 ## What goes wrong first
 

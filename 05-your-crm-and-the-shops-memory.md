@@ -1,0 +1,45 @@
+# Your CRM, and the shop's memory
+
+*I don't write tickets or look up parts anymore. I take a picture of the tech sheet, tell it what the customer said, and read what it writes before it goes on the job.*
+
+## What this does for a shop
+
+This is the step past chapter 1. In chapter 1 Claude writes the two line items and you paste them into your ticket. In this chapter it has a key to your CRM, so when you say "write up the ticket," it writes the ticket. The labor line with the whole repair in plain words, the part line with the number and the price, and a note on the job with the model, the serial and what you found. You read it, you say yes, it's on the job.
+
+The second half is memory. When I'm at a machine I photograph the tech sheet, the folded paper inside the door or behind the kick plate, or I download it from the makers who give them out. It gets filed by model number with the fault codes, the service mode and the test points typed out. The next time I'm standing at that exact model, it already has the sheet. This morning that was a GE dishwasher with an intermittent dead display: hold the left pad and Start five seconds, count the blinks, eight blinks is a stuck key, and the service light on the main board under the tub tells you whether it's the panel or the board. That's off the sheet, in plain words, before I had the door apart.
+
+It will not fix the appliance for you. What it does is get a tech close, and tell them what to check next, the way you would if a green tech called you from the customer's kitchen and you were talking them through it. Status, honestly: the tickets and the tech-sheet filing are in use, every day. The memory across visits is a month old and growing. A new hire has not run on it yet, because I'm one truck. That last part is what I expect, not what I've measured.
+
+## What it costs, honestly
+
+As of September 2026 this needs a paid Claude plan, because it runs in Claude Code, which the free plan doesn't include: Pro at $20 a month, or Max from $100 if you use it all day. Your CRM has to offer API access, and some only do on their higher plans; on Housecall Pro it's a setting on the higher tiers, and I won't quote which, check your own plan page. Time cost: an afternoon to set up, then it saves you the ticket-writing on every job after that.
+
+## What you need before you start
+
+- A paid Claude plan and Claude Code installed on a computer (chapter 1's install, then the paid step)
+- A CRM that gives you an API key, and the key
+- One folder on your computer for the shop, with three things in it: your pricing rule from chapter 1, a folder for tech sheets, and a text file that will become your ledger of what failed and what fixed it
+- The rule in writing, before the key goes anywhere: it shows you the ticket and waits for your yes, every time
+
+## Step by step
+
+1. Make the shop folder. Call it your shop's name. Inside it, make a folder called tech-sheets and an empty text file called ledger.
+2. Put your chapter 1 pricing prompt in a file in that folder called RULES, and add two lines to it: "Before you create or change anything in my CRM, show me exactly what you're about to write and wait for my yes." and "Never put my API key in a chat or a file you show anyone."
+3. Get your API key from your CRM. It's a long string of letters and numbers. Put it in a file the agent can read but that never leaves your computer; Claude Code will tell you how when you ask it "where should my CRM key live so it's never in a chat."
+4. Open Claude Code in the shop folder and tell it, in plain words, what the folder is: "This is my shop. RULES is how I price and how you behave. tech-sheets is where model sheets go. ledger is where you write what failed and what fixed it, one dated entry per job."
+5. First job. Photograph the nameplate and the tech sheet, drop both in, and tell it what the customer said. Ask what to check first. Read what it says against the sheet in your hand.
+6. When you've found the fault and the part, say "write up the ticket for job [number]." It should show you the two lines and the note, then stop. If it writes without showing you, stop right there and fix RULES before anything else.
+7. Say yes. Open the job in your CRM and read what landed. Do this on every job for the first month, not just the first one.
+8. Ask it to file the tech sheet by model and write the ledger entry. Next time you're at that model, ask "what do we have on this one" before you open the door.
+
+## What goes wrong first
+
+1. The key ends up in a chat. If it does, go to your CRM and make a new key, then delete the old one.
+2. It writes to the wrong job. Always give it the job number, and read what landed.
+3. The tech sheet photo is unreadable, and it fills the gaps with what it thinks a sheet like that would say. Retake the photo. Ask it to mark anything it couldn't read.
+4. It "remembers" a model you've never had it file, because it's guessing from a similar one. Ask it which file it read. If it can't name one, it didn't read one.
+5. You stop reading what it wrote, because it's been right all week. The week you stop reading is the week it puts a wrong part number on a real ticket.
+
+## What I'd do
+
+Keep it to ticket writing and tech sheets for the first month, with the show-me-first rule in writing, and read every line it puts on a job. Don't hand it the phone, the calendar or the money until you've caught it being wrong once and seen how it handled being corrected. And if you're thinking about a new tech: put them on it the first week, but you read every ticket they let it write. The system gets a green tech close. It doesn't get them there.
