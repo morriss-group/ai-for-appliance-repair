@@ -2,7 +2,7 @@
 
 **Try one of these three with a real job this week, and keep your passwords out of it.**
 
-This is a plain-English guide to three things I actually use to run a one-truck appliance repair shop: a chat program that helps me diagnose and write things, a phone agent that answers calls and books jobs, and a bookkeeper that watches my QuickBooks. There's a fourth chapter too, on what goes wrong and how I catch it.
+This is a plain-English guide to three things I actually use to run a one-truck appliance repair shop: a chat program that helps me diagnose, look up parts, price them my way and write the ticket, a phone agent that answers calls and books jobs, and a bookkeeper that watches my QuickBooks. There's a fourth chapter too, on what goes wrong and how I catch it.
 
 ## Who it's for
 
@@ -14,6 +14,7 @@ Appliance repair techs and one-truck shop owners who have never used AI, don't u
 2. [Your phone, answered](02-your-phone-answered.md), a phone agent that answers calls and books onto your calendar.
 3. [Your books](03-your-books.md), connecting a bookkeeper AI straight into QuickBooks Online.
 4. [What goes wrong](04-what-goes-wrong.md), the habits that catch it when any of the above is confidently wrong.
+5. Housecall Pro line items written for you, on the job, without pasting. Not written yet.
 
 ## What this is not
 
