@@ -1,0 +1,44 @@
+# Your phone, answered
+
+*It answers my line today. It got there on real calls, not demos, and every change still goes onto a second number before it touches the one customers call.*
+
+## What this does for a shop
+
+This is a phone number that answers itself. A caller says their washer is leaking, the agent asks what's wrong, gets their address, checks whether you cover that area, looks at your actual calendar, offers real open windows, and books the appointment. You find out when it lands on your schedule. It talks like a person having a conversation, not a phone tree where someone presses 1 for service.
+
+The problem it solves is that I can't answer the phone with my hands inside a machine. Now a call at 9 PM, on a Sunday, or while I'm on my back behind a dryer gets answered and booked onto my calendar, and I read the recording later.
+
+## What it costs, honestly
+
+This is the hardest of the three things in this guide to set up. Figure on an afternoon to get it standing up, and then more time after that tuning it against real calls, because a scripted test call is not the same as a real customer talking over your agent or mumbling an address.
+
+The build has its own honest cost breakdown covering three separate charges: the voice platform, the phone number, and the voice itself. I'm not going to repeat numbers here that change on their own pricing pages. Read the real breakdown before you commit to anything: see "What it costs, honestly" in [START-HERE.md](https://github.com/morriss-group/vapi-voice-tuneup/blob/main/START-HERE.md).
+
+## What you need before you start
+
+- A VAPI account, or a similar voice platform
+- A second phone number bought through Twilio and imported, not a number the voice platform gives you (a platform-provided number may not be able to transfer a call to a person)
+- Your business rules written down: hours, service area, brands you decline
+- If you want it booking onto your real calendar, your scheduling software's own API access
+
+## Step by step
+
+1. On your phone or computer, open the repository at github.com/morriss-group/vapi-voice-tuneup.
+2. Open START-HERE.md and read the whole page. It's plain English, about five minutes, and it will tell you honestly whether to build this yourself, hand it to your tech person, or skip it entirely.
+3. If you're building it yourself, follow the link inside START-HERE to README.md for the setup steps in order, most impactful fix first.
+4. Set up a VAPI account and buy a second phone number through Twilio, not through VAPI.
+5. Work through DEPLOY-GUIDE.md in the same repository to stand up your assistant on that second number.
+6. Call your new number yourself, at night, more than once, before you connect it to your calendar or tell anyone it exists.
+7. Once it sounds right and books correctly on the test number, follow MAKE-WEBHOOK-WALKTHROUGH.md to wire it to your own calendar.
+
+## What goes wrong first
+
+1. The voice sounds flat or robotic, or there's a long pause before it answers you.
+2. It talks to a voicemail greeting like it's a person and says something confusing to the machine.
+3. It reads a phone number or an address back as a string of digits instead of speaking it the way a person would.
+4. You skip the test-number step and point it at your real business line too soon.
+5. It works fine on every test call, and then the first time it needs to transfer a real caller to you, the transfer silently fails, because the number came from the voice platform instead of Twilio.
+
+## What I'd do
+
+Get the second number first, and don't skip that step. Live with it for a couple of weeks. Call it yourself, let it book fake appointments, listen back to the recordings. Your phone line is your income, and this build is set up to earn your trust slowly on purpose. If the words "API key" make you want to close the laptop, that's a fine answer, hand the whole repository to whoever does your tech instead of building it yourself.
