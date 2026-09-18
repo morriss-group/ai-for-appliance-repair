@@ -4,7 +4,7 @@
 
 ## What this does for a shop
 
-This is a phone number that answers itself. A caller says their washer is leaking, the agent asks what's wrong, gets their address, checks whether you cover that area, looks at your actual calendar, offers real open windows, and books the appointment. You find out when it lands on your schedule. It talks like a person having a conversation, not a phone tree where someone presses 1 for service.
+This is a phone number that answers itself. A caller says their washer is leaking, the agent asks what's wrong, gets their address, checks whether you cover that area, looks at your actual calendar, offers real open windows, and books the appointment. Mine knows my service area by ZIP code, and inside the ZIPs I only partly cover, by neighborhood, so it declines the far side of a ZIP the same way I would, politely, before anyone's time is spent. You find out when it lands on your schedule. It talks like a person having a conversation, not a phone tree where someone presses 1 for service.
 
 The problem it solves is that I can't answer the phone with my hands inside a machine. Now a call at 9 PM, on a Sunday, or while I'm on my back behind a dryer gets answered and booked onto my calendar, and I read the recording later.
 
