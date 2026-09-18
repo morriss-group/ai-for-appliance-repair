@@ -2,11 +2,11 @@
 
 **Try one of these three with a real job this week, and keep your passwords out of it.**
 
-This is a plain-English guide to three things I actually use to run a one-truck appliance repair shop: a chat program that helps me diagnose, look up parts, price them my way and write the ticket, a phone agent that answers calls and books jobs, and a bookkeeper that watches my QuickBooks. There's a fourth chapter too, on what goes wrong and how I catch it.
+This is a plain-English guide to three things I actually use to run an appliance repair shop: a chat program that helps me diagnose, look up parts, price them my way and write the ticket, a phone agent that answers calls and books jobs, and a bookkeeper that watches my QuickBooks. There's a fourth chapter too, on what goes wrong and how I catch it.
 
 ## Who it's for
 
-Appliance repair techs and one-truck shop owners who have never used AI, don't use a computer much, and are probably reading this on a phone in a truck. No programming required for any of it, and I'll tell you plainly when something does take real technical work.
+Appliance repair techs and shop owners who have never used AI, don't use a computer much, and are probably reading this on a phone in a truck. I run one truck. I think everything here holds for a shop of up to three to five techs. Past that, you need somebody whose whole job is running the AI, and that's a different guide. No programming required for any of it, and I'll tell you plainly when something does take real technical work.
 
 ## The four chapters
 
