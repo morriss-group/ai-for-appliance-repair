@@ -8,7 +8,7 @@ This is a plain-English guide to three things I actually use to run an appliance
 
 Appliance repair techs and shop owners who have never used AI, don't use a computer much, and are probably reading this on a phone in a truck. I run one truck. I think everything here holds for a shop of up to three to five techs. Past that, you need somebody whose whole job is running the AI, and that's a different guide. No programming required for any of it, and I'll tell you plainly when something does take real technical work.
 
-It's written for appliance repair because that's my trade, but the trade is two words on this page. If you're a plumber, an electrician, a house cleaner, a landscaper, a pressure washer, or you install cameras or mount TVs, read it anyway. If you drive to somebody's house and they book you on a schedule, chapters 2, 3, 4 and 6 read the same for you, and in chapters 1 and 5 you swap "part number" and "tech sheet" for whatever your trade's version is.
+It's written for appliance repair because that's my trade, but the trade is two words on this page. If you're a plumber, an electrician, a house cleaner, a landscaper, a pressure washer, or you install cameras or mount TVs, read it anyway. If you drive to somebody's house and they book you on a schedule, chapters 2, 3, 4, 6 and 7 read the same for you, and in chapters 1 and 5 you swap "part number" and "tech sheet" for whatever your trade's version is.
 
 And if you've never held a tool for a living, but your desk job looks like it's going away, read [this page](if-your-job-is-going-away.md) first. It's about you, and about the people who are going to be hiring you.
 
@@ -40,6 +40,7 @@ The blue chapter names below are links. Tap one and that chapter opens. Every ch
 4. [What goes wrong](04-what-goes-wrong.md), the habits that catch it when any of the above is confidently wrong.
 5. [Your CRM, and the shop's memory](05-your-crm-and-the-shops-memory.md), the step past chapter 1: it writes the ticket, files the tech sheet, and tells a tech what to check next.
 6. [One truck to five](06-one-truck-to-five.md), the plan, not the practice: outbound calls, hiring, and what's in use versus planned, dated.
+7. [What about robots](07-what-about-robots.md), the one exception on this site: where I think this is going and what to get ready for, with the facts checked at the source and the belief labeled as belief.
 
 ## What this is not
 

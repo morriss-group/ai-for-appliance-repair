@@ -36,8 +36,12 @@ for f in $FILES; do
   # from the roadmap scan and only from that one. Found 2026-09-14: widening this
   # check to every path made it block PUBLIC-IDENTITY.md and then tell the reader
   # to go consult PUBLIC-IDENTITY.md. The secrets scan above still covers it.
-  case "$f" in PUBLIC-IDENTITY.md) : ;; *)
-    if git show ":$f" | grep -nEi "$ROADMAP" >/dev/null; then echo "gate: BLOCKED roadmap language in $f (see PUBLIC-IDENTITY.md, 'Where it is going')"; git show ":$f" | grep -nEi "$ROADMAP" | head -3; fail=1; fi;;
+  # Owner's ruling 2026-09-19: chapter 7, "What about robots," is the one exception to the no-roadmap rule. It is
+  # labeled as the exception on the page itself, its facts were checked at source, and its belief is marked as belief.
+  # The chapter file is exempt from this scan, and the lines elsewhere that link to it by title are exempt by phrase.
+  # Everything else on the site still may not use these words.
+  case "$f" in PUBLIC-IDENTITY.md|07-what-about-robots.md) : ;; *)
+    if git show ":$f" | grep -nEi "$ROADMAP" | grep -vF 'What about robots' | grep -q .; then echo "gate: BLOCKED roadmap language in $f (see PUBLIC-IDENTITY.md, 'Where it is going')"; git show ":$f" | grep -nEi "$ROADMAP" | grep -vF 'What about robots' | head -3; fail=1; fi;;
   esac
 done
 if [ $fail -eq 0 ]; then echo "gate: clean ($(echo $FILES | wc -w | tr -d ' ') files)"; else exit 1; fi
