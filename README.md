@@ -8,7 +8,24 @@ This is a plain-English guide to three things I actually use to run an appliance
 
 Appliance repair techs and shop owners who have never used AI, don't use a computer much, and are probably reading this on a phone in a truck. I run one truck. I think everything here holds for a shop of up to three to five techs. Past that, you need somebody whose whole job is running the AI, and that's a different guide. No programming required for any of it, and I'll tell you plainly when something does take real technical work.
 
-## The four chapters
+## What this system actually runs, as of September 18, 2026
+
+Not a feature list. A list of things that exist, each with the honest word next to it.
+
+- A phone agent that answers the shop line, books onto the real calendar, and hangs up on robocalls. In use since August 2026.
+- Tickets written straight into the CRM from the field, priced my way, with the diagnosis in plain words. In use.
+- The shop's memory: tech sheets, mini manuals and wiring diagrams filed by model, and a ledger of what failed and what fixed it. In use, a month old.
+- A parts store, TheMrFixedIt, where a supplier's shipping email gets read, matched to the order, and the customer told, without me. In use.
+- A channel of repair videos. In use.
+- Seven scheduled agents that do the overnight and between-call work, coordinated by a folder of plain files. In use.
+- Lavelle, the notes on how all of it is run. Being built, in the open.
+- A public series testing an economic thesis against the government's own releases. In use.
+- A house, designed room by room with the same tools. Designed, not built.
+- A hillside garden, planned, planted and logged with the same system. In the ground. This week it gave cut flowers by the armful, and I handed a bunch to the pizza driver.
+
+One person, one truck, one subscription. It's all because of the AI I'm using and the system I'm building, and this guide is the part of it a shop can start with this week.
+
+## The chapters
 
 1. [Claude on your desktop](01-claude-on-your-desktop.md), the chat program, starting with three small real jobs.
 2. [Your phone, answered](02-your-phone-answered.md), a phone agent that answers calls and books onto your calendar.
