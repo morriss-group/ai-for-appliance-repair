@@ -56,6 +56,10 @@ Here's what I think is coming, and I'm labeling it the way chapter 4 says to: th
 
 Go to college because you enjoy it, not because it gets you a job. Unless you're there learning to run these systems. That's the one degree I'd still bet on.
 
+## What this site counts
+
+Page views, per chapter, with a tool called GoatCounter. No cookies, no names, nothing stored about you. I use it to see which chapters get read and which ones people leave. That's the whole of it.
+
 ## If something in here is wrong or broke for you
 
 Open an issue at github.com/morriss-group/ai-for-appliance-repair/issues and say what broke, or reply in whatever group you found this link in and say the same thing. I'd rather hear about it than have the next person hit it blind.
