@@ -16,6 +16,8 @@ The problem it solves is that I can't answer the phone with my hands inside a ma
 
 And the rule underneath all of it: if your CRM won't give you API access to your own schedule, on any plan, and you want a good voice agent, find another CRM. A voice agent that can't write to the calendar is a message-taker with a nice voice. A CRM is also smaller than it looks from the price tag, a calendar, a customer list and an invoice, and for a shop that won't pay a Max plan for one, a custom one can be built. I've built one for a bike shop and I'm rebuilding it now. That's a thing I can do, not a thing this guide teaches.
 
+**Some people will hate it, and they'll say so where it counts.** I have the proof: two one-star reviews on my business, both for the voice agent and nothing else. One of them accused me of cussing her out on the phone. The call was recorded, so I know what was and wasn't said; the review is up anyway, and it counts the same as any other. That's a real cost, and it's the one nobody puts in the sales pitch. Part of it is that people hear "AI" and picture the phone tree they've been fighting for twenty years, press 1 for service, and hang up angry before they find out this one isn't that. This one works the way a person does: it's on the phone with the caller and on the computer at the same time, checking the real calendar while it talks, and it books the job. Most callers figure that out in the first thirty seconds. A few never will, and they'll leave a review. Decide now that you can live with that, because you can't turn it off for the people who'd hate it.
+
 ## What it costs, honestly
 
 This is the hardest of the three things in this guide to set up. Figure on an afternoon to get it standing up, and then more time after that tuning it against real calls, because a scripted test call is not the same as a real customer talking over your agent or mumbling an address.
@@ -45,7 +47,8 @@ The build has its own honest cost breakdown covering three separate charges: the
 2. It talks to a voicemail greeting like it's a person and says something confusing to the machine.
 3. It reads a phone number or an address back as a string of digits instead of speaking it the way a person would.
 4. You skip the test-number step and point it at your real business line too soon.
-5. It works fine on every test call, and then the first time it needs to transfer a real caller to you, the transfer silently fails, because the number came from the voice platform instead of Twilio.
+5. A caller who hates talking to a machine leaves a one-star review that says nothing about the repair. Read the recording before you reply. Reply once, plainly, and don't argue.
+6. It works fine on every test call, and then the first time it needs to transfer a real caller to you, the transfer silently fails, because the number came from the voice platform instead of Twilio.
 
 ## What I'd do
 
