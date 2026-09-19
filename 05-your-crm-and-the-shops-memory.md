@@ -22,6 +22,7 @@ As of September 2026 this needs a paid Claude plan, because it runs in Claude Co
 - A CRM that gives you an API key, and the key
 - One folder on your computer for the shop, with three things in it: your pricing rule from chapter 1, a folder for tech sheets, mini manuals, wiring diagrams and service manuals, and a text file that will become your ledger of what failed and what fixed it
 - The rule in writing, before the key goes anywhere: it shows you the ticket and waits for your yes, every time
+- A computer at the house that stays on. Mine is a desktop and a Linux box, both on all the time, because the phone in my hand in the field is only the window. The computers at the house are the hands: they hold the shop folder, the key, and the memory, and they're what the phone talks to. If they're asleep, nothing works from the truck. Change the sleep settings so the desktop never sleeps, plug it into a power strip that doesn't get switched off, and count the electricity as part of the cost.
 
 ## Step by step
 
