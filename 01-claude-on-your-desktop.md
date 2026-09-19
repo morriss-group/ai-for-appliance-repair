@@ -48,6 +48,20 @@ Never invent a price or a part number. If you can't find one, say so.
 
 In my shop it goes one step further: it writes those lines straight into Housecall Pro for me, on the job, and I never paste anything. That takes Claude Code, a paid plan, and a key from Housecall Pro. That's [chapter 5](05-your-crm-and-the-shops-memory.md).
 
+## Set it up once, so every chat knows your shop
+
+Step 4 taught one chat how you price. The next time you open Claude and start a new chat, that chat has never met you. It doesn't know your tax rate, your labor rate, or that you run an appliance repair shop, and it will happily price a job some other way. Claude does keep a memory of you now, and it helps, but it's a summary, and it won't go read your old chats unless you ask it to (and searching old chats is a paid-plan feature anyway). Don't lean on it for your pricing rules. Put them where every chat reads them before you type a word.
+
+Do this once. It takes two minutes.
+
+1. On the website, click your initials in the lower left corner and choose Settings. In the phone app the same Settings is behind the menu, under your name. Either way, look for the box labeled "Instructions for Claude."
+2. Paste the pricing prompt from step 4 into that box, with your numbers filled in, and add one line at the top: "You work for one appliance repair shop, mine. Everything I ask you is about running it." Save.
+3. Test it. Start a brand-new chat, send a nameplate photo and a symptom, and see whether it prices your way without being reminded. If it doesn't, the box didn't save. Go back and look.
+
+One step further, and it's on the free plan too: Claude has Projects, up to five on a free account. A project is a folder of chats that all share the same instructions and the same files. Make one with your shop's name on it. On the left side of the screen tap Projects, then "+ New Project," then "Set project instructions," paste the same prompt, and save. Start every shop chat inside that project. The one thing a project won't do is carry a conversation across chats: what you told one chat inside the project, the next chat inside it hasn't heard, unless you saved it to the project's knowledge. So a rate you typed into a message is gone tomorrow. A rate you typed into the instructions is there every time.
+
+And in the middle of a job, stay in the chat you started. Don't open a new one for your second question about the same machine. The new one hasn't seen the photo.
+
 ## What goes wrong first
 
 1. You take a bad photo, glare, blur, or half the label cut off, and get a bad answer back. Retake it in better light.
@@ -55,6 +69,7 @@ In my shop it goes one step further: it writes those lines straight into Houseca
 3. You give it the symptom in your words instead of the customer's, and it diagnoses your guess instead of their problem.
 4. You send the drafted text straight to the customer without reading it, and it says something you wouldn't say.
 5. You try it once, get a decent answer, and never open it again, because nothing forced you to build the habit.
+6. You set it all up in one chat, come back the next morning in a new chat, and it acts like it never met you. That's the section above. Do it once and this stops.
 
 ## What I'd do
 

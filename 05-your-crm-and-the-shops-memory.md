@@ -24,6 +24,24 @@ As of September 2026 this needs a paid Claude plan, because it runs in Claude Co
 - The rule in writing, before the key goes anywhere: it shows you the ticket and waits for your yes, every time
 - A computer at the house that stays on, for the teaching half. You can use Claude from the phone all day with nothing at home switched on; chapter 1 is exactly that, and it's most of what you'll do in the field. What needs the computer at the house is teaching it: filing a tech sheet, writing the ledger, writing to your CRM. Those live in the shop folder with the key and the memory, so the phone in the truck is the window and the desktop at the house is the hands. Mine is a desktop and a Linux box, both on all the time. Change the sleep settings so the desktop never sleeps, plug it into a power strip nobody switches off, and count the electricity as part of the cost.
 
+## Think it out in the chat first
+
+The chat app and Claude Code are two different tools, and I use them for two different jobs. The chat is where I think. Claude Code is where things get built and changed. The chat can't touch anything, so it's the safe place to be half-right out loud. Claude Code has its hands in your files and, in this chapter, in your CRM, so by the time you open it you want to know exactly what you're asking for.
+
+So the habit is: bounce the idea off the chat, then have the chat write the brief.
+
+1. Open a chat (inside your shop project, if you made one in chapter 1) and say what's bugging you, in your own words. "I lose twenty minutes a job writing tickets." "I can never find the tech sheet for a model I know I've seen." Talk it through. Make it argue back: "tell me why this is a bad idea" gets you more than "is this a good idea."
+2. When you can say in two sentences what you want and what done looks like, ask it to write the brief. Paste this:
+
+```
+Write a brief I can hand to Claude Code to build this for my shop. One page. Use these headings: What I want. What done looks like. What you must not touch. What I already have. Questions to ask me before starting. Plain words, no code. If anything I've said contradicts itself, say so at the top.
+```
+
+3. Read the brief. Cross out anything that isn't true about your shop; the chat guesses at what you have, and you don't have to guess. If it lists a question for you, answer it in the brief before the brief goes anywhere.
+4. Open Claude Code in the shop folder, paste the brief, and say: "Read this. Tell me what you'd do and what could go wrong, before you change anything." Let it ask its questions. Then say go.
+
+I go one step further. I hand the same brief to a second chat, sometimes one from a different company, and tell it to tear the brief apart before Claude Code ever sees it. Two models that never saw each other's work agreeing on something is worth a little. One model agreeing with itself is worth nothing.
+
 ## Step by step
 
 1. Make the shop folder. Call it your shop's name. Inside it, make a folder called tech-sheets and an empty text file called ledger.
