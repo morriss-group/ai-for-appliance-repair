@@ -17,7 +17,7 @@ And if you've never held a tool for a living, but your desk job looks like it's 
 Not a feature list. A list of things that exist, each with the honest word next to it.
 
 - A phone agent that answers the shop line, books onto the real calendar, and hangs up on robocalls. In use since August 2026.
-- Measured, not believed: completed-job revenue for the six weeks since the phone agent went live is 56 percent above the same six weeks of 2025; year to date the shop is 14 percent over 2025. Pulled from the CRM September 19, 2026; method and caveats in chapter 2.
+- Measured, not believed: completed-job revenue for the six weeks since the phone agent went live is 56 percent above the same six weeks of 2025 and 62 percent above 2024; the six weeks before it went live were up 11 percent. Year to date the shop is 14 percent over 2025. Pulled from the CRM September 19, 2026; method and caveats in chapter 2.
 - Tickets written straight into the CRM from the field, priced my way, with the diagnosis in plain words. In use.
 - The shop's memory: tech sheets, mini manuals and wiring diagrams filed by model, and a ledger of what failed and what fixed it. In use, a month old.
 - A parts store, TheMrFixedIt, where a supplier's shipping email gets read, matched to the order, and the customer told, without me. In use.
