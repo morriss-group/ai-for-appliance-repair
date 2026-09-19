@@ -61,3 +61,7 @@ Today's date is [DATE]. My fiscal year is the calendar year. Start by telling me
 ## What I'd do
 
 Use the prompt above word for word the first few times, don't shortcut it. Keep it read-only until you've watched it work through a full month and you trust what it's finding. The moment anything touches taxes, payroll, or what's deductible, treat its answer as a first draft and confirm with your CPA, every time, no exceptions.
+
+---
+
+[Back to the front page](README.md) · [Next: What goes wrong](04-what-goes-wrong.md)

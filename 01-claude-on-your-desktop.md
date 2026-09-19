@@ -59,3 +59,7 @@ In my shop it goes one step further: it writes those lines straight into Houseca
 ## What I'd do
 
 Start with the nameplate photo. It costs nothing to try, and you'll know inside a minute whether it's useful to you. Do the check-the-part-number step every single time for the first month, even when you're sure, until it's automatic. Once that's a habit, decide for yourself whether the $20-a-month plan is worth it. I wouldn't pay for anything on day one.
+
+---
+
+[Back to the front page](README.md) · [Next: Your phone, answered](02-your-phone-answered.md)

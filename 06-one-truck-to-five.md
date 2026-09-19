@@ -38,3 +38,7 @@ Calling customers with an AI voice is regulated in a way that answering the phon
 ## What I'd do
 
 Build the reminder call first. It's the smallest, the customer already expects it, it touches no money, and it teaches the outbound path before anything that does. Then estimates. Then invoices. Then hire. And change the words in this chapter as each one changes, with the date next to it.
+
+---
+
+[Back to the front page](README.md). That is the last chapter.

@@ -44,3 +44,7 @@ Here's the honest answer to whether any of this saves you time. The writing take
 ## What I'd do
 
 Write the three words, done, building, hoping, somewhere you'll actually see them, and say one of them out loud every time you're about to repeat a number to a customer, a supplier, or yourself. It costs nothing, and it catches most of this before it costs you anything.
+
+---
+
+[Back to the front page](README.md) · [Next: Your CRM, and the shop's memory](05-your-crm-and-the-shops-memory.md)

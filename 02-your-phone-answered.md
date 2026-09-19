@@ -53,3 +53,7 @@ The build has its own honest cost breakdown covering three separate charges: the
 ## What I'd do
 
 Get the second number first, and don't skip that step. Live with it for a couple of weeks. Call it yourself, let it book fake appointments, listen back to the recordings. Your phone line is your income, and this build is set up to earn your trust slowly on purpose. If the words "API key" make you want to close the laptop, that's a fine answer, hand the whole repository to whoever does your tech instead of building it yourself.
+
+---
+
+[Back to the front page](README.md) · [Next: Your books](03-your-books.md)

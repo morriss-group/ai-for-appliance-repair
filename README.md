@@ -27,6 +27,8 @@ One person, one truck, one subscription. It's all because of the AI I'm using an
 
 ## The chapters
 
+The blue chapter names below are links. Tap one and that chapter opens. Every chapter ends with a link back to this page and one to the next chapter, so you can read straight through.
+
 1. [Claude on your desktop](01-claude-on-your-desktop.md), the chat program, starting with three small real jobs.
 2. [Your phone, answered](02-your-phone-answered.md), a phone agent that answers calls and books onto your calendar.
 3. [Your books](03-your-books.md), connecting a bookkeeper AI straight into QuickBooks Online.

@@ -46,3 +46,7 @@ As of September 2026 this needs a paid Claude plan, because it runs in Claude Co
 ## What I'd do
 
 Keep it to ticket writing and tech sheets for the first month, with the show-me-first rule in writing, and read every line it puts on a job. Don't hand it the phone, the calendar or the money until you've caught it being wrong once and seen how it handled being corrected. And if you're thinking about a new tech: put them on it the first week, but you read every ticket they let it write. The system gets a green tech close. It doesn't get them there.
+
+---
+
+[Back to the front page](README.md) · [Next: One truck to five](06-one-truck-to-five.md)
