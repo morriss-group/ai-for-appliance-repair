@@ -17,7 +17,7 @@ Time cost: a few minutes to connect it the first time, and then whatever time yo
 ## What you need before you start
 
 - A Claude account. Connectors are part of every plan; whether the QuickBooks one shows a Connect button on the free plan is what step 2 tells you
-- A QuickBooks Online account and your Intuit login
+- A QuickBooks Online account and your Intuit login. No QuickBooks? Skip to "If you don't use QuickBooks Online" below; you need a bank statement export and nothing else
 - About ten minutes, and a clear head, for the first connect
 
 ## Step by step
@@ -49,6 +49,18 @@ Rules:
 
 Today's date is [DATE]. My fiscal year is the calendar year. Start by telling me what you can see and what you can't.
 ```
+
+## If you don't use QuickBooks Online
+
+Most of this chapter works with no QuickBooks at all. The bookkeeper prompt doesn't care where the numbers live; it cares that it can read them. Three ways in, in order of how much you already have.
+
+**A spreadsheet.** Excel, Numbers, Google Sheets, or the one your bank exports. Log in to your bank's website, find the statement or transactions page, and download the month as a CSV or Excel file (the button is usually called Export or Download). Open a new Claude chat, tap the paperclip or plus sign by the message box, attach the file, and paste the prompt above with two lines changed: in the first line, replace "runs QuickBooks Online" with "keeps its books in the spreadsheet I've attached," and in rule 2 replace everything after "Start every session by" with "reading the attached file end to end and telling me what's in it, what's uncategorized, and what doesn't add up." Everything else stays. It will categorize, flag what it isn't sure about, and give you back a clean sheet to keep. Google Sheets: use File, then Download, then Microsoft Excel, and attach that.
+
+**QuickBooks Desktop, or some other program.** There's no connector for it. Export the month to Excel or CSV from inside the program and do the spreadsheet path above. Nothing is lost except the Connect button.
+
+**A shoebox.** Photograph the receipts, five or six per photo, flat, in good light, the same way you photograph a nameplate in chapter 1. Attach the photos with the same prompt and tell it "build me this month's spreadsheet from these." Read every line it produces against the paper before you trust it, the first few months.
+
+Two things before you upload anything. Delete or black out the account-number column in a statement before it goes in; the prompt says passwords never go in the chat, and account numbers are the same rule. And make sure the privacy switch from chapter 1 is off, so the file isn't kept longer than thirty days. I run QuickBooks, so this isn't how my own books run; it's what the tools do, and the receipt photos are the same trick as the nameplate.
 
 ## What goes wrong first
 
