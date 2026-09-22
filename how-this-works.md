@@ -22,7 +22,7 @@ Reading needs no account. A free account matters for two things only: getting an
 1. **Chapter 1** is the chat program on your desk, the one you type to. It runs nothing by itself.
 2. **Chapter 2** is the phone agent. Three separate companies are involved, and each bills you directly: the voice service (VAPI) that runs the agent, the phone company (Twilio) that owns the number, and the model that does the thinking. The kit holds my settings and the rules I've learned to put in the agent's instructions.
 3. **The booking piece** is a small program inside the kit, in the folder called tools-server, that lets the phone agent look at your calendar and put appointments on it. It has to run somewhere on the internet. This is the one part where "hand it to your tech person" is a fair answer, and the kit says so.
-4. **Chapters 3 through 7** are the books, what goes wrong, the shop's memory, one truck to five, and robots.
+4. **Chapters 3 through 7** are the rest of the site. The chapter list on the front page says what each one covers.
 
 Nothing you build sends anything to me. I can't see your setup, your calls, or your customers, and I don't want to.
 
