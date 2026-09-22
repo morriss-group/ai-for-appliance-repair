@@ -35,7 +35,7 @@ The build has its own honest cost breakdown covering three separate charges: the
 
 ## Step by step
 
-1. On your phone or computer, open the repository at github.com/morriss-group/vapi-voice-tuneup.
+1. On your phone or computer, open the repository at github.com/morriss-group/vapi-voice-tuneup. Never used GitHub? [How this works, and what to click](how-this-works.md) first.
 2. Open START-HERE.md and read the whole page. It's plain English, about five minutes, and it will tell you honestly whether to build this yourself, hand it to your tech person, or skip it entirely.
 3. If you're building it yourself, follow the link inside START-HERE to README.md for the setup steps in order, most impactful fix first.
 4. Set up a VAPI account and buy a second phone number through Twilio, not through VAPI.

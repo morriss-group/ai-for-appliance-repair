@@ -10,6 +10,8 @@ Appliance repair techs and shop owners who have never used AI, don't use a compu
 
 It's written for appliance repair because that's my trade, but the trade is two words on this page. If you're a plumber, an electrician, a house cleaner, a landscaper, a pressure washer, or you install cameras or mount TVs, read it anyway. If you drive to somebody's house and they book you on a schedule, chapters 2, 3, 4, 6 and 7 read the same for you, and in chapters 1 and 5 you swap "part number" and "tech sheet" for whatever your trade's version is.
 
+Never used GitHub, or not sure what "open source" means for you? [How this works, and what to click](how-this-works.md), written for a phone in a truck.
+
 And if you've never held a tool for a living, but your desk job looks like it's going away, read [this page](if-your-job-is-going-away.md) first. It's about you, and about the people who are going to be hiring you.
 
 ## What this system actually runs, as of September 18, 2026
