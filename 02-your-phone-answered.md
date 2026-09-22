@@ -42,6 +42,7 @@ The build has its own honest cost breakdown covering three separate charges: the
 5. Work through DEPLOY-GUIDE.md in the same repository to stand up your assistant on that second number.
 6. Call your new number yourself, at night, more than once, before you connect it to your calendar or tell anyone it exists.
 7. Once it sounds right and books correctly on the test number, follow MAKE-WEBHOOK-WALKTHROUGH.md to wire it to your own calendar.
+8. Before you leave the repository page, click Watch, then Custom, then Releases. That is the only way GitHub will ever tell you a fix was published. I keep fixing this thing as real calls show me what is wrong, and a copy you downloaded does not update itself. Every fix is listed in CHANGELOG.md with the exact line to change in yours.
 
 ## What goes wrong first
 
