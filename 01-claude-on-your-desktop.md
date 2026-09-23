@@ -28,7 +28,7 @@ Time cost: about ten minutes to sign up, and each of the three jobs below takes 
 
 1. On your phone, open a browser and go to claude.ai, or install the Claude app from the App Store or Google Play. Look for a button that says something like "Sign up" or "Get started."
 2. Enter your email (or sign in with an existing Google account) and follow the prompts. You should land on a chat screen with a blank message box at the bottom.
-3. Before anything else, open Settings (tap your name at the bottom left), tap Privacy, and turn off the switch that lets your chats be used to improve Claude's models; the label changes from time to time, but it is the one about improving the models. Off means your chats are kept 30 days and not used for training, as Anthropic describes it in September 2026.
+3. Before anything else, open Settings (tap your name at the bottom left), tap Privacy, and under Preferences turn off the switch labeled "Help improve our AI models" (that is its label on September 23, 2026; if the wording drifts, it is the one about improving the models). Off means your chats are kept 30 days and not used for training, as Anthropic describes it in September 2026.
 4. Now the real job. Paste this as your first message, with your own numbers filled in. It tells Claude how you price, once, so you never explain it again in that chat:
 
 ```
