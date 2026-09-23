@@ -32,7 +32,7 @@ This is a hard boundary, the same as customer data. It applies to the chapters, 
 
 ## How it's enforced
 
-1. A secrets scanner runs before every push: the author stages the named files, runs `scripts/gate.sh` on them, and pushes only when it passes. It uses gitleaks when installed and a regex fallback when not, and it blocks on a hit. The same script runs as `scripts/gate.sh --all` over every tracked file for a whole-tree check. Until September 23, 2026 this sentence claimed the scan ran before every commit; it ran only when a human typed it, and once it was piped through `tail` and its verdict was lost.
+1. A secrets scanner runs twice: on the author's machine before every push (stage the named files, run `scripts/gate.sh`, push only when it passes), and on GitHub on every push and pull request (`.github/workflows/gate.yml` runs `scripts/gate.sh --all` over every tracked file; the run shows under the Actions tab). Both use gitleaks when installed and a regex fallback when not, and both block on a hit. Until September 23, 2026 this sentence claimed the scan ran before every commit; it ran only when a human typed it, and once it was piped through `tail` and its verdict was lost. The GitHub check has run on every push since that morning.
 2. Named files only. Never "add everything" on a public repository.
 3. Before any repository flips public: a scan of the entire history, and a read of every file by the author.
 4. Anything in the "Out" list found after publication is removed from history, not just from the tip, and the incident is added to the guardrails chapter.
