@@ -1,0 +1,9 @@
+name: gate
+on: [push, pull_request]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publishing gate (secrets, paths, phone numbers, roadmap words) on every tracked file
+        run: bash scripts/gate.sh --all
