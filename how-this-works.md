@@ -20,7 +20,7 @@ Reading needs no account. A free account matters for two things only: getting an
 ## How the whole thing fits together
 
 1. **Chapter 1** is the chat program on your desk, the one you type to. It runs nothing by itself.
-2. **Chapter 2** is the phone agent. Three separate companies are involved, and each bills you directly: the voice service (VAPI) that runs the agent, the phone company (Twilio) that owns the number, and the model that does the thinking. The kit holds my settings and the rules I've learned to put in the agent's instructions.
+2. **Chapter 2** is the phone agent. Several separate companies bill you directly, and the kit's START-HERE lists every meter under "What it costs": the voice service (VAPI) that runs the agent, with the model and the voice bundled into its minute; the phone company (Twilio) that owns the number; the hosting for the small server, once you want the agent looking at a calendar; and two optional ones behind those. The kit holds my settings and the rules I've learned to put in the agent's instructions.
 3. **The booking piece** is a small program inside the kit, in the folder called tools-server, that lets the phone agent look at your calendar and put appointments on it. It has to run somewhere on the internet. This is the one part where "hand it to your tech person" is a fair answer, and the kit says so.
 4. **Chapters 3 through 7** are the rest of the site. The chapter list on the front page says what each one covers.
 
@@ -39,7 +39,7 @@ Nothing updates by itself. When a real call shows me something wrong, I fix my a
 
 Only needed for sections B and E. Two minutes.
 
-1. Open github.com in your phone's browser.
+1. Open [github.com](https://github.com) in your phone's browser.
 2. Tap the three-line menu at the top left, then "Sign up." On some phones the "Sign up" button sits at the top right instead.
 3. Type your email, make a password, pick a username. Tap Continue through the screens.
 4. GitHub emails you a code. Type it in. Done.

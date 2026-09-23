@@ -19,7 +19,7 @@ And if you've never held a tool for a living, but your desk job looks like it's 
 Not a feature list. A list of things that exist, each with the honest word next to it.
 
 - A phone agent that answers the shop line, books onto the real calendar, and hangs up on robocalls. In use since August 2026.
-- Measured, not believed: completed-job revenue for the six weeks since the phone agent went live is 56 percent above the same six weeks of 2025 and 62 percent above 2024; the six weeks before it went live were up 11 percent. Year to date the shop is 14 percent over 2025. Pulled from the CRM September 19, 2026 The export itself is not published; until it is, read these as owner-reported.; method and caveats in chapter 2.
+- Measured, not believed: completed-job revenue for the six weeks since the phone agent went live is 56 percent above the same six weeks of 2025 and 62 percent above 2024; the six weeks before it went live were up 11 percent. Year to date the shop is 14 percent over 2025. Pulled from the CRM September 19, 2026. The export itself is not published; until it is, read these as owner-reported. Method and caveats in chapter 2.
 - Tickets written straight into the CRM from the field, priced my way, with the diagnosis in plain words. In use.
 - The shop's memory: tech sheets, mini manuals and wiring diagrams filed by model, and a ledger of what failed and what fixed it. In use, a month old.
 - A parts store, TheMrFixedIt, where a supplier's shipping email gets read, matched to the order, and the customer told, without me. In use.
@@ -68,6 +68,6 @@ I'm telling you because a lot of people don't know this kind of counting exists,
 
 ## If something in here is wrong or broke for you
 
-Open an issue at github.com/morriss-group/ai-for-appliance-repair/issues and say what broke, or reply in whatever group you found this link in and say the same thing. I'd rather hear about it than have the next person hit it blind.
+Open an issue at [github.com/morriss-group/ai-for-appliance-repair/issues](https://github.com/morriss-group/ai-for-appliance-repair/issues) and say what broke, or reply in whatever group you found this link in and say the same thing. I'd rather hear about it than have the next person hit it blind.
 
 Last checked: September 23, 2026.
