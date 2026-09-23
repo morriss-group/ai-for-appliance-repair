@@ -1,6 +1,6 @@
 # One truck to five
 
-*This chapter is the plan, not the practice. Every line carries one of three words: in use, building, or planned. If a line has no word, assume planned.*
+*This chapter is the plan, not the practice. It is one of the two labeled exceptions to this site's no-roadmap rule (the other is chapter 7); see PUBLIC-IDENTITY.md. Every line carries one of three words: in use, building, or planned. If a line has no word, assume planned.*
 
 ## What this does for a shop
 

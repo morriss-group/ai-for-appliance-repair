@@ -30,6 +30,8 @@ Ruled by the owner on 2026-09-06. The public repository is a snapshot of practic
 
 This is a hard boundary, the same as customer data. It applies to the chapters, the README, replies to issues, and what is said to anyone asking about the project. The commit gate blocks a short list of roadmap words in chapters and the README; the list is a tripwire, not the rule. The rule is this paragraph.
 
+Two chapters are labeled exceptions, and each says so at its top: chapter 7 (what about robots), an essay about the trade's future written as belief, and chapter 6 (one truck to five), the shop's own hiring plan, which is a plan about staffing a repair business and nothing about where this project is headed. Ruled by the owner on 2026-09-23 after an outside review flagged chapter 6 against this page. No third exception without a ruling recorded here.
+
 ## How it's enforced
 
 1. A secrets scanner runs twice: on the author's machine before every push (stage the named files, run `scripts/gate.sh`, push only when it passes), and on GitHub on every push and pull request (`.github/workflows/gate.yml` runs `scripts/gate.sh --all` over every tracked file; the run shows under the Actions tab). Both use gitleaks when installed and a regex fallback when not, and both block on a hit. Until September 23, 2026 this sentence claimed the scan ran before every commit; it ran only when a human typed it, and once it was piped through `tail` and its verdict was lost. The GitHub check has run on every push since that morning.
