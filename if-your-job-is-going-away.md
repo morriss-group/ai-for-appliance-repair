@@ -11,7 +11,7 @@ permalink: /if-your-job-is-going-away/
 
 **Second, the ones already running a service business:** plumbing, electrical, HVAC, cleaning, landscaping, pressure washing, window washing, camera install, TV mounting, appliance repair like me. Here's what I think, and it's a belief, not a measurement: those people at the desks are going to come looking for our work, and there's plenty of it. It's on us to be ready to hire them and teach them. This guide is one shop's way of getting ready.
 
-So I wrote it down. Free, six chapters, plain English, no programming, no course, nothing to buy at the end.
+So I wrote it down. Free, seven chapters, plain English, no programming, no course, nothing to buy at the end.
 
 **[Start at the front page.](README.md)** The blue chapter names there are links; tap one.
 

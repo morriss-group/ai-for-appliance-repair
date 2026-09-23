@@ -14,7 +14,7 @@ Never used GitHub, or not sure what "open source" means for you? [How this works
 
 And if you've never held a tool for a living, but your desk job looks like it's going away, read [this page](if-your-job-is-going-away.md) first. It's about you, and about the people who are going to be hiring you.
 
-## What this system actually runs, as of September 18, 2026
+## What this system actually runs, as of September 23, 2026
 
 Not a feature list. A list of things that exist, each with the honest word next to it.
 
@@ -28,9 +28,9 @@ Not a feature list. A list of things that exist, each with the honest word next 
 - Lavelle, the notes on how all of it is run. Being built, in the open.
 - A public series testing an economic thesis against the government's own releases. In use.
 - A house, designed room by room with the same tools. Designed, not built.
-- A hillside garden, planned, planted and logged with the same system. In the ground. This week it gave cut flowers by the armful, and I handed a bunch to the pizza driver.
+- A hillside garden, planned, planted and logged with the same system. In the ground. In September 2026 it gave cut flowers by the armful, and I handed a bunch to the pizza driver.
 
-One person, one truck, one subscription. It's all because of the AI I'm using and the system I'm building, and this guide is the part of it a shop can start with this week.
+One person, one truck, and a few small subscriptions; chapter 2 names every meter. It's all because of the AI I'm using and the system I'm building, and this guide is the part of it a shop can start with this week.
 
 ## The chapters
 
@@ -70,4 +70,4 @@ I'm telling you because a lot of people don't know this kind of counting exists,
 
 Open an issue at github.com/morriss-group/ai-for-appliance-repair/issues and say what broke, or reply in whatever group you found this link in and say the same thing. I'd rather hear about it than have the next person hit it blind.
 
-Last checked: September 18, 2026.
+Last checked: September 23, 2026.

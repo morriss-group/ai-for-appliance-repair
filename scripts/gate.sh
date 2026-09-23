@@ -4,13 +4,20 @@
 # 2) A small regex fallback runs either way, for phones, paths, keys, and a private names list.
 # Neither replaces a human reading the files and PUBLIC-IDENTITY.md. A grep is not anonymity.
 set -euo pipefail
-FILES=$(git diff --cached --name-only --diff-filter=ACM || true)
-[ -z "$FILES" ] && { echo "gate: nothing staged"; exit 0; }
+if [ "${1:-}" = "--all" ]; then GATE_ALL=1;
+  # CI mode (added 2026-09-23): scan every tracked file in the working tree, not the index.
+  FILES=$(git ls-files)
+  SHOW() { cat "$1"; }
+else
+  FILES=$(git diff --cached --name-only --diff-filter=ACM || true)
+  [ -z "$FILES" ] && { echo "gate: nothing staged"; exit 0; }
+  SHOW() { git show ":$1"; }
+fi
 
 fail=0
 export PATH="$HOME/.local/bin:$PATH"
 if command -v gitleaks >/dev/null 2>&1; then
-  if ! gitleaks protect --staged --no-banner --redact >/tmp/gate-gitleaks.txt 2>&1; then
+  if ! gitleaks ${GATE_ALL:+detect} ${GATE_ALL:-protect --staged} --no-banner --redact >/tmp/gate-gitleaks.txt 2>&1; then
     echo "gate: BLOCKED by gitleaks (staged secrets). Details: /tmp/gate-gitleaks.txt"; fail=1
   fi
 else
@@ -26,8 +33,8 @@ ROADMAP='HORIZON|\bend goals?\b|\bend[- ]states?\b|\bdestination\b|consciousness
 for f in $FILES; do
   [ -f "$f" ] || continue
   case "$f" in */gate.sh) continue;; esac
-  if git show ":$f" | grep -nEi "$PATTERN" >/dev/null; then echo "gate: BLOCKED pattern in $f"; git show ":$f" | grep -nEi "$PATTERN" | head -3; fail=1; fi
-  if [ -f "$NAMES_FILE" ] && git show ":$f" | grep -nFi -f "$NAMES_FILE" >/dev/null; then echo "gate: BLOCKED private name in $f"; fail=1; fi
+  if SHOW "$f" | grep -nEi "$PATTERN" >/dev/null; then echo "gate: BLOCKED pattern in $f"; SHOW "$f" | grep -nEi "$PATTERN" | head -3; fail=1; fi
+  if [ -f "$NAMES_FILE" ] && SHOW "$f" | grep -nFi -f "$NAMES_FILE" >/dev/null; then echo "gate: BLOCKED private name in $f"; fail=1; fi
   # EVERY shippable path, not just docs/ and README.md. On 2026-09-14 an outside
   # audit found that the file with the most roadmap language in it was the
   # one file this check never looked at. A guard scoped to where you expect the
@@ -41,7 +48,7 @@ for f in $FILES; do
   # The chapter file is exempt from this scan, and the lines elsewhere that link to it by title are exempt by phrase.
   # Everything else on the site still may not use these words.
   case "$f" in PUBLIC-IDENTITY.md|07-what-about-robots.md) : ;; *)
-    if git show ":$f" | grep -nEi "$ROADMAP" | grep -vF 'What about robots' | grep -q .; then echo "gate: BLOCKED roadmap language in $f (see PUBLIC-IDENTITY.md, 'Where it is going')"; git show ":$f" | grep -nEi "$ROADMAP" | grep -vF 'What about robots' | head -3; fail=1; fi;;
+    if SHOW "$f" | grep -nEi "$ROADMAP" | grep -vF 'What about robots' | grep -q .; then echo "gate: BLOCKED roadmap language in $f (see PUBLIC-IDENTITY.md, 'Where it is going')"; SHOW "$f" | grep -nEi "$ROADMAP" | grep -vF 'What about robots' | head -3; fail=1; fi;;
   esac
 done
 if [ $fail -eq 0 ]; then echo "gate: clean ($(echo $FILES | wc -w | tr -d ' ') files)"; else exit 1; fi

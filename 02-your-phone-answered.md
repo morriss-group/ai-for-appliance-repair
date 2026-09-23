@@ -35,14 +35,15 @@ The build has its own honest cost breakdown covering three separate charges: the
 
 ## Step by step
 
-1. On your phone or computer, open the repository at github.com/morriss-group/vapi-voice-tuneup. Never used GitHub? [How this works, and what to click](how-this-works.md) first.
+1. On your phone or computer, open the repository at [github.com/morriss-group/vapi-voice-tuneup](https://github.com/morriss-group/vapi-voice-tuneup). Never used GitHub? [How this works, and what to click](how-this-works.md) first.
 2. Open START-HERE.md and read the whole page. It's plain English, about five minutes, and it will tell you honestly whether to build this yourself, hand it to your tech person, or skip it entirely.
 3. If you're building it yourself, follow the link inside START-HERE to README.md for the setup steps in order, most impactful fix first.
-4. Set up a VAPI account and buy a second phone number through Twilio, not through VAPI.
-5. Work through DEPLOY-GUIDE.md in the same repository to stand up your assistant on that second number.
-6. Call your new number yourself, at night, more than once, before you connect it to your calendar or tell anyone it exists.
-7. Once it sounds right and books correctly on the test number, follow MAKE-WEBHOOK-WALKTHROUGH.md to wire it to your own calendar.
-8. Before you leave the repository page, click Watch, then Custom, then Releases. That is the only way GitHub will ever tell you a fix was published. I keep fixing this thing as real calls show me what is wrong, and a copy you downloaded does not update itself. Every fix is listed in CHANGELOG.md with the exact line to change in yours.
+4. Stop here if you're on a phone. Everything from this step on needs a computer with a terminal, and the kit's deploy guide says which one and how. If you don't have that, hand the kit link to your tech person and skip to step 6.
+5. Set up a VAPI account and buy a second phone number through Twilio, not through VAPI. Three meters start here and the kit's START-HERE names every one of them: the voice service, the phone number, and the hosting, plus your scheduling software's plan if you want it booking onto your calendar.
+6. Work through DEPLOY-GUIDE.md in the same repository to stand up your assistant on that second number.
+7. Call your new number yourself, at night, more than once, before you connect it to your calendar or tell anyone it exists.
+8. Once it sounds right on the test number, MAKE-WEBHOOK-WALKTHROUGH.md gets you a report of every call in your inbox. That is a report, not a booking. Booking onto your real calendar is Layer 4 of DEPLOY-GUIDE.md, and the example tool in the kit is a placeholder that must never be attached to a live number.
+9. Before you leave the repository page, click Watch, then Custom, then Releases. That is the only way GitHub will ever tell you a fix was published. I keep fixing this thing as real calls show me what is wrong, and a copy you downloaded does not update itself. Every fix is listed in CHANGELOG.md with the exact line to change in yours.
 
 ## What goes wrong first
 

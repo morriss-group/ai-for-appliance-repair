@@ -6,14 +6,14 @@
 
 I built a phone agent and a set of instructions for my own shop. Then I put the instructions and the settings on a public website where anyone can read them and copy them. Free. No signup to read. No catch.
 
-The license on both projects is called MIT. In plain words: use it in your business, change it however you want, don't ask my permission, and I make no promises that it works for you. That last part is the "as is" clause every open-source license has. You never owe me anything. If you improve it and want to send the improvement back, there's a page for that, but nobody expects it.
+The license on both projects is called MIT. In plain words: use it in your business, change it however you want, don't ask my permission, and I make no promises that it works for you. That last part is the "as is" clause every open-source license has. You never owe me anything. If you improve it and want to send the improvement back, [here's how](CONTRIBUTING.md), but nobody expects it.
 
 ## What GitHub is
 
 GitHub is a website where people keep the files for a project, along with every change ever made to them. Think of it as a shared filing cabinet with a history. A "repository," which people shorten to "repo," is one drawer: one project's files. Two drawers matter here.
 
-- **The guide you're reading:** github.com/morriss-group/ai-for-appliance-repair. These pages are the files in that drawer, shown as a website.
-- **The phone agent kit:** github.com/morriss-group/vapi-voice-tuneup. The settings, the how-to, and every fix.
+- **The guide you're reading:** [github.com/morriss-group/ai-for-appliance-repair](https://github.com/morriss-group/ai-for-appliance-repair). These pages are the files in that drawer, shown as a website.
+- **The phone agent kit:** [github.com/morriss-group/vapi-voice-tuneup](https://github.com/morriss-group/vapi-voice-tuneup). The settings, the how-to, and every fix.
 
 Reading needs no account. A free account matters for two things only: getting an email when I fix something, and telling me something is wrong.
 
@@ -46,8 +46,8 @@ Only needed for sections B and E. Two minutes.
 
 ### B. Get an email whenever I post a fix
 
-1. Open github.com/morriss-group/vapi-voice-tuneup. Sign in if it asks.
-2. Near the top, under the project name, tap the button with the eye on it that says "Watch."
+1. Open [github.com/morriss-group/vapi-voice-tuneup](https://github.com/morriss-group/vapi-voice-tuneup) and sign in. You have to be signed in for the next step; signed out, the button isn't there.
+2. Near the top, under the project name, tap the button with the eye on it that says "Watch." On some phones it's tucked behind the three dots at the top right; tap those and "Watch" is in the list.
 3. A menu opens with four choices: "Participating and @mentions," "All Activity," "Ignore," and "Custom." Tap "Custom."
 4. Check the box next to "Releases." Leave the others unchecked. Tap "Apply."
 5. From then on, each fix arrives as an email from GitHub. Open it, read what changed, and change the same line in yours.
@@ -59,7 +59,7 @@ Only needed for sections B and E. Two minutes.
 
 ### D. Get the files, only if you're building it yourself
 
-1. On the kit's page, tap the green "Code" button.
+1. On the kit's page, tap the "Code" button. It's green on a computer; on a phone it may be plain.
 2. Tap "Download ZIP." Your phone or computer saves one file. On a computer, double-click it to unpack.
 3. A ZIP never updates. When a fix is posted, download it again or change the line by hand from the CHANGELOG.
 
