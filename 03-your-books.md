@@ -22,7 +22,7 @@ Time cost: a few minutes to connect it the first time, and then whatever time yo
 
 ## Step by step
 
-1. In the Claude app, open Connectors in the left navigation.
+1. In the Claude app, open Settings (tap your name at the bottom left), then tap Connectors; it sits under the Customize heading.
 2. Find QuickBooks in the list and choose Connect.
 3. You'll be sent to Intuit's own sign-in page. Sign in there with your Intuit login, not a Claude password. Claude never holds your QuickBooks password.
 4. If there's no Connect button next to QuickBooks at all, that means your current plan doesn't include it. That's the answer, don't guess further, check the plan page instead.

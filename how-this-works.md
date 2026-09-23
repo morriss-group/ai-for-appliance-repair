@@ -74,6 +74,13 @@ If your tech person uses git, they can "clone" it instead and pull updates in. T
 
 Or reply in the group where you found this link and say the same thing. That works too.
 
+## Four words you'll meet, in plain English
+
+- **API:** a way for one program to talk to another without a person clicking. When the phone agent checks your calendar, it uses your scheduling software's API. Some vendors charge extra for that door.
+- **Webhook:** the reverse: a program calling you. When a call ends, the voice service sends a report to an address you give it. That is all the "webhook walkthrough" sets up.
+- **Terminal:** the black window on a computer where you type commands instead of clicking. A phone doesn't have one. Every step that says "type this" happens there.
+- **Agent:** a program that uses an AI model to do a job on its own: answer the phone, read a calendar, write a ticket. Nothing mystical; a very fast clerk with a script.
+
 ## What this costs
 
 Reading and copying: nothing. Running it: the voice service, the phone number, and the model each bill you on their own. Chapter 2 and the kit's START-HERE page give the honest numbers, and they change, so I don't repeat them here.

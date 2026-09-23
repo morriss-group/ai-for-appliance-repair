@@ -24,12 +24,12 @@ And the rule underneath all of it: if your CRM won't give you API access to your
 
 This is the hardest of the three things in this guide to set up. Figure on an afternoon to get it standing up, and then more time after that tuning it against real calls, because a scripted test call is not the same as a real customer talking over your agent or mumbling an address.
 
-The build has its own honest cost breakdown covering three separate charges: the voice platform, the phone number, and the voice itself. I'm not going to repeat numbers here that change on their own pricing pages. Read the real breakdown before you commit to anything: see "What it costs, honestly" in [START-HERE.md](https://github.com/morriss-group/vapi-voice-tuneup/blob/main/START-HERE.md).
+The build has its own honest cost breakdown covering every separate charge: the voice platform, the phone number, the hosting, and the optional ones behind them. I'm not going to repeat numbers here that change on their own pricing pages. Read the real breakdown before you commit to anything: see "What it costs, honestly" in [START-HERE.md](https://github.com/morriss-group/vapi-voice-tuneup/blob/main/START-HERE.md).
 
 ## What you need before you start
 
 - A VAPI account, or a similar voice platform
-- A second phone number bought through Twilio and imported, not a number the voice platform gives you (a platform-provided number may not be able to transfer a call to a person)
+- A second phone number bought through Twilio and imported, not a number the voice platform gives you (a platform-provided number may not be able to transfer a call to a person; that is what happened on our line in September 2026, and the kit's README fix #9 has the test; try a transfer on yours before you rely on it)
 - Your business rules written down: hours, service area, brands you decline
 - If you want it booking onto your real calendar, your scheduling software's own API access
 
@@ -39,7 +39,7 @@ The build has its own honest cost breakdown covering three separate charges: the
 2. Open START-HERE.md and read the whole page. It's plain English, about five minutes, and it will tell you honestly whether to build this yourself, hand it to your tech person, or skip it entirely.
 3. If you're building it yourself, follow the link inside START-HERE to README.md for the setup steps in order, most impactful fix first.
 4. Stop here if you're on a phone. Everything from this step on needs a computer with a terminal, and the kit's deploy guide says which one and how. If you don't have that, hand the kit link to your tech person and skip to step 6.
-5. Set up a VAPI account and buy a second phone number through Twilio, not through VAPI. Three meters start here and the kit's START-HERE names every one of them: the voice service, the phone number, and the hosting, plus your scheduling software's plan if you want it booking onto your calendar.
+5. Set up a VAPI account and buy a second phone number through Twilio, not through VAPI. The meters start here and the kit's START-HERE lists every one of them under "What it costs": the voice service, the phone number, the hosting for the small server, plus your scheduling software's plan if you want it booking onto your calendar.
 6. Work through DEPLOY-GUIDE.md in the same repository to stand up your assistant on that second number.
 7. Call your new number yourself, at night, more than once, before you connect it to your calendar or tell anyone it exists.
 8. Once it sounds right on the test number, MAKE-WEBHOOK-WALKTHROUGH.md gets you a report of every call in your inbox. That is a report, not a booking. Booking onto your real calendar is Layer 4 of DEPLOY-GUIDE.md, and the example tool in the kit is a placeholder that must never be attached to a live number.

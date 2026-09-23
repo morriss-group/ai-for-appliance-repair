@@ -28,7 +28,7 @@ Time cost: about ten minutes to sign up, and each of the three jobs below takes 
 
 1. On your phone, open a browser and go to claude.ai, or install the Claude app from the App Store or Google Play. Look for a button that says something like "Sign up" or "Get started."
 2. Enter your email (or sign in with an existing Google account) and follow the prompts. You should land on a chat screen with a blank message box at the bottom.
-3. Before anything else, find Privacy Settings and turn off the switch that lets your chats be used to improve Claude. Off means your chats are kept 30 days and not used for training.
+3. Before anything else, open Settings (tap your name at the bottom left), tap Privacy, and turn off the switch that lets your chats be used to improve Claude's models; the label changes from time to time, but it is the one about improving the models. Off means your chats are kept 30 days and not used for training, as Anthropic describes it in September 2026.
 4. Now the real job. Paste this as your first message, with your own numbers filled in. It tells Claude how you price, once, so you never explain it again in that chat:
 
 ```
@@ -58,7 +58,7 @@ Do this once. It takes two minutes.
 2. Paste the pricing prompt from step 4 into that box, with your numbers filled in, and add one line at the top: "You work for one appliance repair shop, mine. Everything I ask you is about running it." Save.
 3. Test it. Start a brand-new chat, send a nameplate photo and a symptom, and see whether it prices your way without being reminded. If it doesn't, the box didn't save. Go back and look.
 
-One step further, and it's on the free plan too: Claude has Projects, up to five on a free account. A project is a folder of chats that all share the same instructions and the same files. Make one with your shop's name on it. On the left side of the screen tap Projects, then "+ New Project," then "Set project instructions," paste the same prompt, and save. Start every shop chat inside that project. The one thing a project won't do is carry a conversation across chats: what you told one chat inside the project, the next chat inside it hasn't heard, unless you saved it to the project's knowledge. So a rate you typed into a message is gone tomorrow. A rate you typed into the instructions is there every time.
+One step further, and it's on the free plan too: Claude has Projects, up to five on a free account. A project is a folder of chats that all share the same instructions and the same files. Make one with your shop's name on it. On the left side of the screen tap Projects, then "+ New Project," then "Set project instructions," paste the same prompt, and save. Start every shop chat inside that project. The one thing a project won't do is carry a conversation across chats: what you told one chat inside the project, the next chat inside it hasn't heard, unless you saved it to the project's knowledge. So a rate you typed into a message is gone tomorrow. A rate you typed into the instructions is there every time. If "Set project instructions" is not offered on the free plan when you look, it has moved behind the paid plan; the shop instructions from the settings step above do the same job for a single chat.
 
 And in the middle of a job, stay in the chat you started. Don't open a new one for your second question about the same machine. The new one hasn't seen the photo.
 
