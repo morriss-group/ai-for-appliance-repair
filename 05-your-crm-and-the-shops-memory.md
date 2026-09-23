@@ -18,7 +18,7 @@ As of September 2026 this needs a paid Claude plan, because it runs in Claude Co
 
 ## What you need before you start
 
-- A paid Claude plan and Claude Code installed on a computer (chapter 1's install, then the paid step)
+- A paid Claude plan and Claude Code installed on a computer. Chapter 1 put the Claude app on your phone; Claude Code is a separate install on a computer, from Anthropic's Claude Code page, and it needs the paid plan.
 - A CRM that gives you an API key, and the key
 - One folder on your computer for the shop, with three things in it: your pricing rule from chapter 1, a folder for tech sheets, mini manuals, wiring diagrams and service manuals, and a text file that will become your ledger of what failed and what fixed it
 - The rule in writing, before the key goes anywhere: it shows you the ticket and waits for your yes, every time
